@@ -25,9 +25,9 @@ vendor/bin/phpunit
 src/
   cli.php (main program)
   Config.php (configuration)
-  TaxRelief.php (question 1)
-  TaxScheme.php (question 2)
+  TaxRelief.php (question 2)
+  TaxScheme.php (question 1)
 tests/
-  TaxReliefTest.php (unit test for question 1)
-  TaxSchemeTest.php (unit test for question 2)
+  TaxReliefTest.php (unit test for question 2)
+  TaxSchemeTest.php (unit test for question 1)
 </pre>
