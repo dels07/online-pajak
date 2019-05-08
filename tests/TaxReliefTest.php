@@ -72,8 +72,8 @@ class TaxReliefTest extends TestCase
     public function testMarriedWith0Dependant()
     {
         $type     = 'K0';
-        $salary   = 0;
-        $excepted = 0;
+        $salary   = 25000000;
+        $excepted = 31225000;
 
         $actual = $this->target->calculateTaxWithRelief($type, $salary);
 
@@ -94,8 +94,8 @@ class TaxReliefTest extends TestCase
     public function testMarriedWith2Dependant()
     {
         $type     = 'K2';
-        $salary   = 0;
-        $excepted = 0;
+        $salary   = 25000000;
+        $excepted = 29875000;
 
         $actual = $this->target->calculateTaxWithRelief($type, $salary);
 
@@ -105,8 +105,8 @@ class TaxReliefTest extends TestCase
     public function testMarriedWith3Dependant()
     {
         $type     = 'K3';
-        $salary   = 0;
-        $excepted = 0;
+        $salary   = 25000000;
+        $excepted = 29200000;
 
         $actual = $this->target->calculateTaxWithRelief($type, $salary);
 
